@@ -1,0 +1,69 @@
+<!-- 
+    Created on : 05-Jul-2018, 14:10:52
+    Author     : Rakshith
+-->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Zomato</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="col-md-12 col-sm-12 col-xs-12 wrapper">
+            <div class="row">
+                <div class="body_container">
+
+                    <!-- Header and Logo -->
+                    <header>
+                        <div class="logo_holder">
+                            <img src="images/zomato-logo.png" class="logo_img"/>
+                        </div>
+                    </header>
+                    <!-- Main Body -->
+                    <div class="main_content">
+                        
+                        <!-- City search Box and list of cities -->
+                        <div class="col-md-8 col-sm-12 col-xs-12 search_box_holder">
+                            <div class="col-md-3">
+                                <label for="search_box" class="search_box_label">Search for your city</label>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="search_box_container">
+                                    <input type="text" id="search_box" class="col-md-8  search_box_input"/>
+                                    <div class="col-md-8" >
+                                        <div class="row search_results_holder" id="searchBoxResults">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- collection of Restaurants -->
+                            <div class="col-md-12">
+                                <div class="row" id="collectionsHolder">
+
+                                </div>
+                                <div class="collections_error_msg">
+                                    No results found, Search for other city
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div> 
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jQuery.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/const.js" type="text/javascript"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+</body>    
+</html>

@@ -1,0 +1,14 @@
+How long did it take to complete the solution?
+Ans - I took nearly 12 hours to finish up this challenge
+
+What would you add if you had more time?
+Ans - I would have implemented most of the api's resources and multiple webpages that are interelated. I would have added the more interactive look and feel with animations.
+
+How would you deploy this to production?
+Ans - Take the copy of updated version in Git version control and move the original copy to production server via SFTP, FTP client (WinSCP, FileZilla)
+
+How would you debug it in production?
+Ans - Create a new application from remote sources(our deployed project in the server) in IDE and debug the project code from IDE.
+
+How would you know if it is failing at 2am?
+Ans - At present, I dont know the answer. I will make sure to find the solution for this ASAP.

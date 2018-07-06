@@ -1,0 +1,145 @@
+
+/* 
+    Created on : 05-Jul-2018, 14:51:48
+    Author     : Rakshith
+*/
+
+html, 
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0; 
+    background: url('../images/bg.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.wrapper{
+   
+    height: 100%;
+}
+.search_results_holder {
+    background: #eee;
+    max-height: 300px;
+    overflow-y:  scroll;
+    border-radius: 5px;
+}
+img.logo_img {
+    max-width: 200px;
+    float: right;
+}
+
+.body_container {
+    width: 100%;
+}
+
+.logo_holder {
+    padding:  10px;
+    background: #fff;
+    opacity: 0.8;
+}
+.cities_img_block {
+    float:  left;
+    max-width: 100px;
+    padding: 5px;
+}
+.cities_result_holder:hover{
+    background: #fff;
+    cursor: pointer;
+}
+.search_box_holder {
+    margin: auto auto;
+    margin-top: 6%;
+}
+
+.main_content {
+    height: 300px;
+}
+
+label.search_box_label {
+    color:  #fff;
+    width: 100%;
+    font-size: 30px;
+    font-family: Verdana;
+    font-weight:  bold;
+}
+
+input#search_box {
+   
+    height: 40px;
+    border-radius:  5px;
+    border:  1px solid transparent;
+    box-shadow: 1px 2px 5px #2b1207;
+}
+.cities_data_block {
+    float:  left;
+    width: 200px;
+    font-size: 13px;
+}
+
+.cities_result_holder:after , .logo_holder:after{
+    content:  '';
+    display:  table;
+    clear:  both;
+}
+
+.cities_result_holder {
+    border-bottom: 1px dotted #ccc;
+    width: 100%;
+}
+.search_results_holder:before{
+    clear: both;
+}
+img.search_item_flag {
+    max-width: 50px;
+}
+.collection_box {
+    background: #ca2525;
+    border-radius: 5px;
+    /* padding: 5px; */
+    margin: 5px;
+    width: 100%;
+}
+
+.collection_title {
+    color:  #fff;
+    font-size: 18px;
+    font-family: Arial;
+}
+
+.collection_desc {
+    font-size:  15px;
+    font-family: cursive;
+    color: #00ffc4;
+}
+
+.collection_header {
+    padding: 5px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.collection_footer {
+    background: #efc2ad;
+    padding: 5px;
+    /* cursor:  pointer; */
+}
+
+a.collection_link {
+    font-family: sans-serif;
+    width: 100%;
+    display: block;
+    color: #146725;
+    font-weight: 700;
+    text-align: center;
+}
+
+.collections_error_msg {
+    display: none;
+    background:  #00adef;
+    padding:  10px;
+    border-radius:  5px;
+    color:  #fff;
+}
